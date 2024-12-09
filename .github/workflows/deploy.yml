@@ -15,7 +15,7 @@ jobs:
       - name: Install pnpm # 安装pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 6.0.2
+          version: 8.14.1
 
       - name: Install and Build # 下载依赖 打包项目
         run: |
