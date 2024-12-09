@@ -12,7 +12,8 @@ export default defineConfig({
     })
   ],
   build: {
-    target: ['es2015', 'chrome63'], // 默认是modules,百度说是更改这个会去输出兼容浏览器，尝试没啥作用，先配置吧
+    // target: ['es2015', 'chrome63'], // 默认是modules,百度说是更改这个会去输出兼容浏览器，尝试没啥作用，先配置吧
+    target: "modules", // 默认是modules,百度说是更改这个会去输出兼容浏览器，尝试没啥作用，先配置吧
   },
   base: './',
   resolve: {

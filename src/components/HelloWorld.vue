@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'; // 引入 useRouter 进行页面跳转
 import objectImage from "@/assets/homepage/objectsimg.png";
 import weight from "@/assets/homepage/weight.png";
-// import star from "@/assets/homepage/star.png";
+import star from "@/assets/homepage/Star.png";
 import texture from "@/assets/homepage/texture.png";
 
 const router = useRouter(); // 使用 Vue Router
@@ -69,10 +69,10 @@ const sentenceText = ref(fullText.split(""));
     :src="weight"
     style="object-fit: cover; width: 98px"
     class="weight" />
-<!--    <img
+    <img
     :src="star"
     style="object-fit: cover; "
-    class="star" />-->
+    class="star" />
     <img
     :src="texture"
     style="object-fit: cover; "
